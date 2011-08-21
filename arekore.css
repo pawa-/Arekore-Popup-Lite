@@ -1,0 +1,54 @@
+span.arekore
+{
+    position: absolute;
+    margin: 0px;
+    padding: 10px;
+    max-width: 250px;
+    word-wrap: break-word;
+    color: #fff;
+    font-size: 13px;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    background-color: #222;
+    
+    /* -- 背景画像の指定 --------------------------------------------- */
+    /* background-image: url("./img/arekore_bg_black.jpg");            */
+    /* --------------------------------------------------------------- */
+    
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    
+    /* --横スクロールバーが出て困る場合はコメントアウトしてください -- */
+    -moz-box-shadow: 3px 3px 10px #888;
+    -webkit-box-shadow: 3px 3px 10px #888;
+    box-shadow: 3px 3px 10px #888;
+    /* --------------------------------------------------------------- */
+    
+    z-index: 100;
+}
+
+span.arekore img
+{
+    float: left;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+span.arekore span.arekore_url
+{
+    clear: left;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    font-size: 13px;
+    text-align: left;
+    font-weight: normal;
+    background-color: transparent;
+}
