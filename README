@@ -1,0 +1,91 @@
+あれこれポップアップ Lite
+
+
+  サムネイル画像表示機能を使う場合は↓の利用規約に従ってください。
+
+    HeartRails の利用規約
+    http://www.heartrails.com/company/terms.html
+
+
+
+    これは何？
+    仕様
+    だうんろーど
+    設置マニュアル
+    改訂履歴
+    関連リンク
+
+
+
+これは何？
+
+Webページ中のtitle属性をポップアップするJavaScriptとCSSのセットです。
+
+「あれこれポップアップ」とは違い、ポップアップするのはtitle属性のみです。
+しかし、その分だけ非常に軽く動作します。
+
+
+
+仕様
+
+    title属性があるとポップアップします
+    title属性の値に全角スペースがあると改行します
+    ポップアップの背景画像も容易に設定できます
+    a要素の場合、URLとキャプチャ画像を表示します（キャプチャ画像は非表示も可能）
+    自サイトへのリンクの場合はURLもキャプチャ画像も表示しません
+    ほとんどの最新のブラウザで動きます
+    軽いです
+    かっこいいです
+    WordPressなどにも対応 (arekore_wp.js)（衝突回避版）
+    あまり使うとウザがられるかもしれません
+    IE9未満は角丸になりません（IE9 ベータ版では角丸になることを確認しています）
+
+
+
+設置マニュアル
+
+「arekore.css」と「arekore.js」の場所に気をつけて、↓のコードを設置したいWebページのヘッダ内（<head>ここ</head>）に貼りつければ完了です。
+jQueryのバージョンは最新のものでも動くはずです。（多分...）
+
+「arekore.js」のユーザー初期設定欄でさらに細かい設定も可能です。
+
+<link rel="stylesheet" type="text/css" href="./arekore.css">
+<script type="text/css" src="http://www.google.com/jsapi"></script>
+<script>google.load("jquery", "1.4.2");</script>
+<script type="text/javascript" src="./arekore.js"></script>
+
+
+
+改訂履歴
+Ver. 1.12 (2010/12/31)
+
+    相対URLのときにもサムネイル画像を表示しようとするバグを修正
+
+Ver. 1.11 (2010/12/31)
+
+    URL省略時にサムネイル画像が表示されないバグを修正
+    URLに「?」が含まれているとき、サムネイル画像を表示しないように変更（Bad Request 回避）
+
+Ver. 1.10 (2010/12/29)
+
+    title属性はあるけど空の場合（title=""）のときに黒丸が出るバグを修正
+    ポップアップの背景画像を容易に設定できるように修正
+    ポップアップをp要素からspan要素に変更
+    ポップアップのCSSが既存のスタイル指定に影響されにくくなるように修正
+
+Ver. 1.00 (2010/12/27)
+
+    ファーストリリース
+
+
+
+関連リンク
+
+  あれこれポップアップ:
+  http://www.remus.dti.ne.jp/~a-satomi/bunsyorou/ArekorePopup.html
+  あれこれポップアップ Liteを作るきっかけとなったスクリプト。
+
+
+  掲示板:
+    http://dojikko.com/bbs/bbs.cgi
+    質問・感想などがあれば気軽にどうぞ！ 
