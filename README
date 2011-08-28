@@ -50,7 +50,7 @@ jQueryのバージョンは最新のものでも動くはずです。（多分..
 「arekore.js」のユーザー初期設定欄でさらに細かい設定も可能です。
 
 <link rel="stylesheet" type="text/css" href="./arekore.css">
-<script type="text/css" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
 <script>google.load("jquery", "1.4.2");</script>
 <script type="text/javascript" src="./arekore.js"></script>
 
