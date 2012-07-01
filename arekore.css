@@ -1,4 +1,4 @@
-span.arekore
+div.arekore
 {
     position: absolute;
     margin: 0px;
@@ -12,25 +12,25 @@ span.arekore
     line-height: 1.6;
     letter-spacing: 1px;
     background-color: #222;
-    
-    /* -- ”wŒi‰æ‘œ‚Ìw’è --------------------------------------------- */
+
+    /* -- èƒŒæ™¯ç”»åƒã®æŒ‡å®š --------------------------------------------- */
     /* background-image: url("./img/arekore_bg_black.jpg");            */
     /* --------------------------------------------------------------- */
-    
+
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    
-    /* --‰¡ƒXƒNƒ[ƒ‹ƒo[‚ªo‚Ä¢‚éê‡‚ÍƒRƒƒ“ƒgƒAƒEƒg‚µ‚Ä‚­‚¾‚³‚¢ -- */
+
+    /* --æ¨ªã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«ãƒãƒ¼ãŒå‡ºã¦å›°ã‚‹å ´åˆã¯ã‚³ãƒ¡ãƒ³ãƒˆã‚¢ã‚¦ãƒˆã—ã¦ãã ã•ã„ -- */
     -moz-box-shadow: 3px 3px 10px #888;
     -webkit-box-shadow: 3px 3px 10px #888;
     box-shadow: 3px 3px 10px #888;
     /* --------------------------------------------------------------- */
-    
-    z-index: 100;
+
+    z-index: 99999;
 }
 
-span.arekore img
+div.arekore img
 {
     float: left;
     border: none;
@@ -40,7 +40,7 @@ span.arekore img
     padding-bottom: 10px;
 }
 
-span.arekore span.arekore_url
+div.arekore span.arekore_url
 {
     clear: left;
     display: block;
