@@ -29,7 +29,7 @@ jQuery(function($)
     var thumb_on_font_color = "#ffffff";             // サムネイル画像表示時のフォントのカラー
 
     // ------------------------------------------------------------
-
+    $("div.arekore").remove(); // iPhoneだとページ移動したときにポップアップが残っていることがあるので
 
     var api_url   = "http://capture.heartrails.com/";
     var myaddress = new RegExp(url);
