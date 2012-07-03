@@ -1,5 +1,5 @@
 /*
- * あれこれポップアップ Lite Ver. 1.20
+ * あれこれポップアップ Lite Ver. 1.21
  *
  *   original by ALIMIKA SATOMI     (http://www.remus.dti.ne.jp/~a-satomi/bunsyorou/ArekorePopup.html)
  *   Web API  by HeartRails Capture (http://capture.heartrails.com/)
